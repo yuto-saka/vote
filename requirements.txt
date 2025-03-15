@@ -1,0 +1,4 @@
+matplotlib
+pandas
+matplotlib.font_manager
+matplotlib.pyplot

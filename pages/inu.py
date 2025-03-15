@@ -6,7 +6,7 @@ from matplotlib import rcParams
 from matplotlib.font_manager import FontProperties
 
 # 日本語フォントを設定するための準備
-font_path = "C:/Windows/Fonts/msgothic.ttc"  # パスは環境に合わせて変更してください
+font_path = "msgothic.ttc"  # パスは環境に合わせて変更してください
 jp_font = FontProperties(fname=font_path)
 rcParams['font.family'] = jp_font.get_name()
 
